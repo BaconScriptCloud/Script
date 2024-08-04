@@ -26,6 +26,8 @@ Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
 
+Tab:AddLabel("You need any skill for fast autofarm - Use Infinite Gems And Summon Skills")
+
 Tab:AddButton({
 	Name = "Level 1 Train AutoFarm",
 	Callback = function()
@@ -1415,6 +1417,8 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 Tab:AddLabel("#1 Use Weakest Sword")
 Tab:AddLabel("#2 Use Private Server")
 Tab:AddLabel("#3 Enable Anti Afk")
+Tab:AddLabel("#4 Hatch Better Pets For More Exp")
+Tab:AddLabel("#5 Join Our Discord For Announcement And Update")
 
 Tab:AddParagraph("🌟Creator","BaconScriptCloud")
 
