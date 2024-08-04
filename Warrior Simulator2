@@ -1,7 +1,6 @@
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Warrior Simulator | AutoFarm🚜", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "Warrior Simulator | BaconScriptCloud📜", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
@@ -161,6 +160,8 @@ end
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
 
 local Tab = Window:MakeTab({
 	Name = "World-2",
@@ -354,6 +355,8 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
+
 local Tab = Window:MakeTab({
 	Name = "World-3",
 	Icon = "rbxassetid://4483345998",
@@ -545,6 +548,8 @@ end
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
 
 local Tab = Window:MakeTab({
 	Name = "World-4",
@@ -738,6 +743,8 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
+
 local Tab = Window:MakeTab({
 	Name = "World 5",
 	Icon = "rbxassetid://4483345998",
@@ -929,6 +936,8 @@ end
 Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
+
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
 
 local Tab = Window:MakeTab({
 	Name = "World-6",
@@ -1122,6 +1131,8 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
+
 local Tab = Window:MakeTab({
 	Name = "World-7",
 	Icon = "rbxassetid://4483345998",
@@ -1314,6 +1325,8 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
+
 local Tab = Window:MakeTab({
 	Name = "Misc📜",
 	Icon = "rbxassetid://4483345998",
@@ -1385,6 +1398,8 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
+
 local Tab = Window:MakeTab({
 	Name = "Tips🔥",
 	Icon = "rbxassetid://4483345998",
@@ -1400,6 +1415,8 @@ PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 Tab:AddLabel("#1 Use Weakest Sword")
 Tab:AddLabel("#2 Use Private Server")
 Tab:AddLabel("#3 Enable Anti Afk")
+
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
 
 local Tab = Window:MakeTab({
 	Name = "Info❗",
@@ -1441,4 +1458,4 @@ Name = <string> - The name of the button.
 Callback = <function> - The function of the button.
 ]]
 
-Tab:AddParagraph("🌟Creator","Paragraph Content")
+Tab:AddParagraph("🌟Creator","BaconScriptCloud")
